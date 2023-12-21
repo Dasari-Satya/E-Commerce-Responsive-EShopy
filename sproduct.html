@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link the CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link the bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Adding Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Single Product Page</title>
+</head>
+<body>
+    <!-- Header Section of Website -->
+        <section id="header">
+            <!-- Container Section For Styling Header Parts -->
+            <!-- Adding An Logo of the store -->
+                <img src="images/Logo.jpeg" alt="Logo" height="150" width="150">
+
+                <!-- Adding Navbar Element for Showing some nav contents of store -->
+                <div class="menu">
+                    <ul id="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html" class="active">Shop</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <!-- <li><a href="login.html">Login</a></li> -->
+                        <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                        <a href="#" id="close" class="active"><i class="fa-regular fa-circle-xmark"></i></a>
+                    </ul>
+                </div>  
+                <div id="mobile">
+                    <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <i class="fa-solid fa-bars toggle" id="bars"></i>
+                </div>
+        </section>
+        <!-- Single Product Page Main Section  -->
+
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="./images/Products/f1.jpg" width="100%" id="Mainimg" alt="product">
+            
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="images/Products/f1.jpg" width="100%" class="small-img" alt="product">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/Products/f2.jpg" width="100%" class="small-img" alt="product">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/Products/f3.jpg" width="100%" class="small-img" alt="product">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/Products/f4.jpg" width="100%" class="small-img" alt="product">
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-pro-details">
+                <h6>Home / T-Shirt</h6>
+                <h4>Men's Fashion T-Shirt</h4>
+                <h2>₹1199.00</h2>
+                <select>
+                    <option>Select Size</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                </select>
+                <input type="number" value="1">
+                <button class="normal">Add To Cart</button>
+                <h4>Product Details</h4>
+                <span>The Gildon Ultra Cotton T-Shirt is made from a substantial 6.0 oz.per.sq.yd.fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turning package.</span>
+            </div>
+        </section>
+
+         <!-- Products Section-- This Sections Highlights with Top Branded Items.... -->
+         <section id="product1" class="section-p1">
+            <h2>Featured Products</h2>
+            <p><b><em>Summer Collection New Modern Design</em></b></p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="./images/Products/f1.jpg" alt="Product" width="200" height="200">
+                    <div class="des">
+                        <span><b>ADIDAS</b></span>
+                        <h5>Cartoon Astronaut Shirt with Patch Pocket</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹869/-</h4>
+                        <h6>MRP <S>1349.00</S> <em> (55% Off)</em></h6>
+                        <p><b>Price inclusive of all taxes</b></p>
+                    </div>
+                    <a href="#" class="carts"><i class="fa-sharp fa-regular fa-heart"></i></a>&emsp;
+                    <a href="#" class="carts"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="./images/Products/f2.jpg" alt="Product" width="200" height="200">
+                    <div class="des">
+                        <span><b>ADIDAS</b></span>
+                        <h5>Floral Astronaut Shirt with Patch Pocket</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹980/-</h4>
+                        <h6>MRP <S>1449.00</S> <em> (52% Off)</em></h6>
+                        <p><b>Price inclusive of all taxes</b></p>
+                    </div>
+                    <a href="#" class="carts"><i class="fa-sharp fa-regular fa-heart"></i></a>&emsp;
+                    <a href="#" class="carts"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="./images/Products/f3.jpg" alt="Product" width="200" height="200">
+                    <div class="des">
+                        <span><b>ADIDAS</b></span>
+                        <h5>Cartoon Astronaut Shirt with Patch Pocket</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹1100/-</h4>
+                        <h6>MRP <S>1600.00</S> <em> (45% Off)</em></h6>
+                        <p><b>Price inclusive of all taxes</b></p>
+                    </div>
+                    <a href="#" class="carts"><i class="fa-sharp fa-regular fa-heart"></i></a>&emsp;
+                    <a href="#" class="carts"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="./images/Products/f4.jpg" alt="Product" width="200" height="200">
+                    <div class="des">
+                        <span><b>ADIDAS</b></span>
+                        <h5>Cartoon Astronaut Shirt with Patch Pocket</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹799/-</h4>
+                        <h6>MRP <S>1149.00</S> <em> (35% Off)</em></h6>
+                        <p><b>Price inclusive of all taxes</b></p>
+                    </div>
+                    <a href="#" class="carts"><i class="fa-sharp fa-regular fa-heart"></i></a>&emsp;
+                    <a href="#" class="carts"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+               
+            </div>
+        </section>
+
+        <!-- Newsletter Section - For More Updates Receives Through Email -->
+
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+                <h4>Sign Up For Newsletters</h4>
+                <p>Get E-mail updates about our latest stock and <span>special offers.</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter Your E-mail Address">
+                <button class="normal">Sign Up!</button>
+            </div>
+        </section>
+
+
+        <!-- Footer Section - It Contains Brief Details of this Website Features -->
+
+        <footer class="section-p1">
+            <div class="col" id="footer">
+                <img class="logo" src="./images/Logo.jpeg" alt="Logo">
+                <h4>Contact</h4>
+                <p> <strong>Address: </strong> 562 Wellington Road, Street 32, San Francisco</p>
+                <p><strong>Phone: </strong> +01 2222 365 / (+91)01 2345 6789</p>
+                <p><strong>Timings: </strong> 10:00 - 18:00 , Mon - Sat</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col1">
+                <h4>About</h4>
+                <a href="#">About us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact us</a>
+            </div>
+
+            <div class="col col2">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Whishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="./images/Install & Pay/app.jpg" alt="ios App">
+                    <img src="./images/Install & Pay/play.jpg" alt="Android App">
+                </div>
+                <p>Secured Payment Gateways </p>
+                <img src="./images/Install & Pay/pay.png" alt="Payments" width="300" class="payment">
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2019, E-Shopy - HTML CSS JS E-Commerce</p>
+            </div>
+        </footer>
+
+        <script>
+            var Mainimg = document.getElementById('Mainimg');
+            var smallimg = document.getElementsByClassName('small-img');
+
+            smallimg[0].onclick = function(){
+                Mainimg.src = smallimg[0].src;
+            }
+            smallimg[1].onclick = function(){
+                Mainimg.src = smallimg[1].src;
+            }
+            smallimg[2].onclick = function(){
+                Mainimg.src = smallimg[2].src;
+            }
+            smallimg[3].onclick = function(){
+                Mainimg.src = smallimg[3].src;
+            }
+        </script>
+
+        <script src="script.js"></script>
+</body>
+</html>
